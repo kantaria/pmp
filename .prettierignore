@@ -1,0 +1,14 @@
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+nuxt.config.ts
+tailwind.config.js
+nuxt.config.ts
+.eslintrc.cjs
+.prettierrc
+README.md

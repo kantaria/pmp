@@ -1,0 +1,54 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import '@/node_modules/normalize.css/normalize.css';
+@import './../fonts/index.scss';
+@import './_variables';
+
+body {
+  background-color: $color-body;
+}
+
+body:has(.whiteNavWrapper) {
+  background-color: $color-White;
+}
+
+body:has(.cards-section) {
+  background-color: $color-Zircon;
+}
+
+.containerFluid {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.accent {
+  color: $color-DodgerBlue;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.orange {
+  color: $color-Orange;
+}
+
+.green {
+  color: $color-MountainMeadow;
+}
+
+.yellow {
+  color: $color-RipeLemon;
+}
+
+.black {
+  color: $color-Shark;
+}

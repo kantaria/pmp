@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /*.js
+Allow: /*.css
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*?page
+Allow: /*?ref=
+Disallow: /*?
