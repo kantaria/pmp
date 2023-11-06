@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt dev",
+    "dev:auto": "nuxt dev -o",
     "lint:js": "eslint --ext \".ts,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:js && yarn lint:prettier",

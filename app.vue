@@ -1,5 +1,5 @@
 <template lang="pug">
-div
+div Hello
   //  Other head elements 
 NuxtLayout
 NuxtPage
