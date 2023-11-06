@@ -1,0 +1,13 @@
+.form {
+  &__inputsWrapper{
+    @media screen and (max-width: 500px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__inputItem{
+    @media screen and (max-width: 991px){
+      width: 100%;
+    }
+  }
+}

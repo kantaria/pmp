@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-screen px-4 py-8 md:px-6 lg:px-8"
+    class="px-4 py-8 md:px-6 lg:px-8"
     :style="{
       backgroundImage: `url(${backgroundImage})`,
       backgroundSize: 'cover',
@@ -11,8 +11,8 @@
       <div class="w-full lg:w-6 p-4 lg:p-7 surface-card">
         <div class="text-900 text-2xl font-medium mb-6">Create account</div>
         <form @submit.prevent="signUp">
-          <div class="flex flex-direction-row align-items-center justify-content-between gap-2">
-            <div class="w-6 mb-4 ">
+          <div class="flex flex-direction-row align-items-center justify-content-between gap-2 form__inputsWrapper">
+            <div class="form__inputItem">
               <label for="first-name" class="block text-900 font-medium mb-2"
                 >First Name</label
               >
@@ -27,7 +27,7 @@
                 placeholder=""
               />
             </div>
-            <div class="w-6 mb-4">
+            <div class="form__inputItem">
               <label for="first-name" class="block text-900 font-medium mb-2"
                 >Last Name</label
               >
@@ -149,3 +149,4 @@ const login = () => {
   store.login();
 };
 </script>
+<style src="./_sin_up.scss"  scoped lang="scss"></style>
