@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-screen bg-cover bg-no-repeat px-4 py-8 md:px-6 lg:px-8"
+    class="bg-cover bg-no-repeat px-4 py-8 md:px-6 lg:px-8"
     :style="{
       backgroundImage: `url(${backgroundImage})`,
     }"
